@@ -1,6 +1,6 @@
 %定义一个字符数组 daystring
 
-switch daystring
+switch dayString
     
     case 'Monday'
         disp('Start of the work week')
@@ -14,5 +14,7 @@ switch daystring
         disp('day 5')
     case 'Saturday'
         disp('End of the work week')
-    case 'Sunday'
+    otherwise
         disp('Weekend')
+        
+end
